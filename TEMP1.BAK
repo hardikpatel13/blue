@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char ch='a';
+clrscr();
+	scanf("%c",'&a');
+	printf("alphanets from a-z are : \t");
+	while(ch<='z')
+	{
+	printf("%c\t",ch);
+	ch++;
+	}
+getch();
+}
